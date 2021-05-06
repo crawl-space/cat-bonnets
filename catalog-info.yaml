@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: jbowes/cat-bonnets
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: jbowes
