@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cat-bonnets
+  description: |
+    A digital cat bonnets API.
   annotations:
     github.com/project-slug: jbowes/cat-bonnets
 spec:
