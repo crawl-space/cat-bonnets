@@ -1,0 +1,7 @@
+site_name: 'cat-bonnets'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
