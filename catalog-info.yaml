@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cat-bonnets
+  annotations:
+    github.com/project-slug: jbowes/cat-bonnets
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jbowes
