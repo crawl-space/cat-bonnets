@@ -18,6 +18,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: jbowes
+  dependsOn:
+    - outbound-webhooks
   providesApis:
     - cat-bonnets-rest-v1
     
@@ -34,7 +36,7 @@ metadata:
     - bonnets
 spec:
   type: openapi
-  lifecycle: production
+  lifecycle: experimental
   owner: engineering
   definition:
     $text: https://github.com/RoadieHQ/sample-service/blob/main/api-spec.yaml
