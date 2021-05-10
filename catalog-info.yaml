@@ -5,7 +5,7 @@ metadata:
   description: A digital cat bonnets API.
   annotations:
     github.com/project-slug: jbowes/cat-bonnets
-    backstage.io/techdocs-ref: https://github.com/jbowes/cat-bonnets/tree/main
+    backstage.io/techdocs-ref: url:https://github.com/jbowes/cat-bonnets/tree/main
 spec:
   type: service
   lifecycle: experimental
