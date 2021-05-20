@@ -21,3 +21,22 @@ spec:
   system: bonnet-commerce
   providesApis:
     - cat-bonnets-rest-v1
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cat-bonnets-rest-v1
+  description: The API for doing things with cat bonnets
+  tags:
+    - cats
+    - rest
+    - bonnets
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: engineering
+  system: bonnet-commerce
+  definition:
+    $text: https://github.com/RoadieHQ/sample-service/blob/main/api-spec.yaml
