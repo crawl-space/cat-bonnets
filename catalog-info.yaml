@@ -19,11 +19,9 @@ spec:
   lifecycle: experimental
   owner: jbowes
   system: bonnet-commerce
-  dependsOn:
-    - outbound-webhooks
   providesApis:
     - cat-bonnets-rest-v1
-    
+
 ---
 
 apiVersion: backstage.io/v1alpha1
